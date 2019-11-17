@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2458721D79908D9BA6B2AA64 /* Pods_FBWhatEat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C266169DCE4764CD18E5E194 /* Pods_FBWhatEat.framework */; };
+		406A30CBDDCD97FBFFD90497 /* Pods_FBWhatEatDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A8D40CD26194374D43902A /* Pods_FBWhatEatDemo.framework */; };
+		56F8EC2F2381321D004AC4F8 /* FBWhatEat.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F8EC2D2381321D004AC4F8 /* FBWhatEat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56F8EC3C238132D2004AC4F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F8EC3B238132D2004AC4F8 /* AppDelegate.swift */; };
+		56F8EC3E238132D2004AC4F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F8EC3D238132D2004AC4F8 /* ViewController.swift */; };
+		56F8EC41238132D2004AC4F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56F8EC3F238132D2004AC4F8 /* Main.storyboard */; };
+		56F8EC43238132D3004AC4F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F8EC42238132D3004AC4F8 /* Assets.xcassets */; };
+		56F8EC46238132D3004AC4F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56F8EC44238132D3004AC4F8 /* LaunchScreen.storyboard */; };
+		56F8EC4C23814413004AC4F8 /* VC_SmallTool_foot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F8EC4B23814413004AC4F8 /* VC_SmallTool_foot.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C096CFD3032FE7038ED900F /* Pods-FBWhatEatDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBWhatEatDemo.release.xcconfig"; path = "Target Support Files/Pods-FBWhatEatDemo/Pods-FBWhatEatDemo.release.xcconfig"; sourceTree = "<group>"; };
+		11E6B3ACA8E3F0CAF1265406 /* Pods-FBWhatEatDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBWhatEatDemo.debug.xcconfig"; path = "Target Support Files/Pods-FBWhatEatDemo/Pods-FBWhatEatDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		13A8D40CD26194374D43902A /* Pods_FBWhatEatDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBWhatEatDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F8EC2A2381321D004AC4F8 /* FBWhatEat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBWhatEat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F8EC2D2381321D004AC4F8 /* FBWhatEat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBWhatEat.h; sourceTree = "<group>"; };
+		56F8EC2E2381321D004AC4F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56F8EC39238132D2004AC4F8 /* FBWhatEatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBWhatEatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F8EC3B238132D2004AC4F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56F8EC3D238132D2004AC4F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56F8EC40238132D2004AC4F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56F8EC42238132D3004AC4F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56F8EC45238132D3004AC4F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56F8EC47238132D3004AC4F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56F8EC4B23814413004AC4F8 /* VC_SmallTool_foot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_SmallTool_foot.swift; sourceTree = "<group>"; };
+		C266169DCE4764CD18E5E194 /* Pods_FBWhatEat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBWhatEat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D898DC3F3FE5AC5524B76AE3 /* Pods-FBWhatEat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBWhatEat.debug.xcconfig"; path = "Target Support Files/Pods-FBWhatEat/Pods-FBWhatEat.debug.xcconfig"; sourceTree = "<group>"; };
+		DFFE1B2FB53576B5EE5F6ACF /* Pods-FBWhatEat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBWhatEat.release.xcconfig"; path = "Target Support Files/Pods-FBWhatEat/Pods-FBWhatEat.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56F8EC272381321D004AC4F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2458721D79908D9BA6B2AA64 /* Pods_FBWhatEat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F8EC36238132D2004AC4F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406A30CBDDCD97FBFFD90497 /* Pods_FBWhatEatDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AA430F4F1828454637D6C94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D898DC3F3FE5AC5524B76AE3 /* Pods-FBWhatEat.debug.xcconfig */,
+				DFFE1B2FB53576B5EE5F6ACF /* Pods-FBWhatEat.release.xcconfig */,
+				11E6B3ACA8E3F0CAF1265406 /* Pods-FBWhatEatDemo.debug.xcconfig */,
+				0C096CFD3032FE7038ED900F /* Pods-FBWhatEatDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		56F8EC202381321D004AC4F8 = {
+			isa = PBXGroup;
+			children = (
+				56F8EC3A238132D2004AC4F8 /* FBWhatEatDemo */,
+				56F8EC2C2381321D004AC4F8 /* FBWhatEat */,
+				56F8EC2B2381321D004AC4F8 /* Products */,
+				1AA430F4F1828454637D6C94 /* Pods */,
+				9EA39A4B01D8A293E9109004 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		56F8EC2B2381321D004AC4F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56F8EC2A2381321D004AC4F8 /* FBWhatEat.framework */,
+				56F8EC39238132D2004AC4F8 /* FBWhatEatDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56F8EC2C2381321D004AC4F8 /* FBWhatEat */ = {
+			isa = PBXGroup;
+			children = (
+				56F8EC2D2381321D004AC4F8 /* FBWhatEat.h */,
+				56F8EC2E2381321D004AC4F8 /* Info.plist */,
+				56F8EC4B23814413004AC4F8 /* VC_SmallTool_foot.swift */,
+			);
+			path = FBWhatEat;
+			sourceTree = "<group>";
+		};
+		56F8EC3A238132D2004AC4F8 /* FBWhatEatDemo */ = {
+			isa = PBXGroup;
+			children = (
+				56F8EC3B238132D2004AC4F8 /* AppDelegate.swift */,
+				56F8EC3D238132D2004AC4F8 /* ViewController.swift */,
+				56F8EC3F238132D2004AC4F8 /* Main.storyboard */,
+				56F8EC42238132D3004AC4F8 /* Assets.xcassets */,
+				56F8EC44238132D3004AC4F8 /* LaunchScreen.storyboard */,
+				56F8EC47238132D3004AC4F8 /* Info.plist */,
+			);
+			path = FBWhatEatDemo;
+			sourceTree = "<group>";
+		};
+		9EA39A4B01D8A293E9109004 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C266169DCE4764CD18E5E194 /* Pods_FBWhatEat.framework */,
+				13A8D40CD26194374D43902A /* Pods_FBWhatEatDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		56F8EC252381321D004AC4F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F8EC2F2381321D004AC4F8 /* FBWhatEat.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		56F8EC292381321D004AC4F8 /* FBWhatEat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56F8EC322381321D004AC4F8 /* Build configuration list for PBXNativeTarget "FBWhatEat" */;
+			buildPhases = (
+				7D125214F6CD81E9586320C0 /* [CP] Check Pods Manifest.lock */,
+				56F8EC252381321D004AC4F8 /* Headers */,
+				56F8EC262381321D004AC4F8 /* Sources */,
+				56F8EC272381321D004AC4F8 /* Frameworks */,
+				56F8EC282381321D004AC4F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBWhatEat;
+			productName = FBWhatEat;
+			productReference = 56F8EC2A2381321D004AC4F8 /* FBWhatEat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		56F8EC38238132D2004AC4F8 /* FBWhatEatDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56F8EC4A238132D3004AC4F8 /* Build configuration list for PBXNativeTarget "FBWhatEatDemo" */;
+			buildPhases = (
+				4A252AAB8AF7159B14BE60CB /* [CP] Check Pods Manifest.lock */,
+				56F8EC35238132D2004AC4F8 /* Sources */,
+				56F8EC36238132D2004AC4F8 /* Frameworks */,
+				56F8EC37238132D2004AC4F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBWhatEatDemo;
+			productName = FBWhatEatDemo;
+			productReference = 56F8EC39238132D2004AC4F8 /* FBWhatEatDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56F8EC212381321D004AC4F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = FeatherBrowser;
+				TargetAttributes = {
+					56F8EC292381321D004AC4F8 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					56F8EC38238132D2004AC4F8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 56F8EC242381321D004AC4F8 /* Build configuration list for PBXProject "FBWhatEat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56F8EC202381321D004AC4F8;
+			productRefGroup = 56F8EC2B2381321D004AC4F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56F8EC292381321D004AC4F8 /* FBWhatEat */,
+				56F8EC38238132D2004AC4F8 /* FBWhatEatDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56F8EC282381321D004AC4F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F8EC37238132D2004AC4F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F8EC46238132D3004AC4F8 /* LaunchScreen.storyboard in Resources */,
+				56F8EC43238132D3004AC4F8 /* Assets.xcassets in Resources */,
+				56F8EC41238132D2004AC4F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A252AAB8AF7159B14BE60CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBWhatEatDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D125214F6CD81E9586320C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBWhatEat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56F8EC262381321D004AC4F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F8EC4C23814413004AC4F8 /* VC_SmallTool_foot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F8EC35238132D2004AC4F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F8EC3E238132D2004AC4F8 /* ViewController.swift in Sources */,
+				56F8EC3C238132D2004AC4F8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		56F8EC3F238132D2004AC4F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56F8EC40238132D2004AC4F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56F8EC44238132D3004AC4F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56F8EC45238132D3004AC4F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56F8EC302381321D004AC4F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56F8EC312381321D004AC4F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56F8EC332381321D004AC4F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D898DC3F3FE5AC5524B76AE3 /* Pods-FBWhatEat.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9WF2Q7D4RJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FBWhatEat/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YiS.FBWhatEat;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56F8EC342381321D004AC4F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFFE1B2FB53576B5EE5F6ACF /* Pods-FBWhatEat.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9WF2Q7D4RJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FBWhatEat/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YiS.FBWhatEat;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		56F8EC48238132D3004AC4F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E6B3ACA8E3F0CAF1265406 /* Pods-FBWhatEatDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WF2Q7D4RJ;
+				INFOPLIST_FILE = FBWhatEatDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YiS.FBWhatEatDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56F8EC49238132D3004AC4F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C096CFD3032FE7038ED900F /* Pods-FBWhatEatDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WF2Q7D4RJ;
+				INFOPLIST_FILE = FBWhatEatDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YiS.FBWhatEatDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56F8EC242381321D004AC4F8 /* Build configuration list for PBXProject "FBWhatEat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F8EC302381321D004AC4F8 /* Debug */,
+				56F8EC312381321D004AC4F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56F8EC322381321D004AC4F8 /* Build configuration list for PBXNativeTarget "FBWhatEat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F8EC332381321D004AC4F8 /* Debug */,
+				56F8EC342381321D004AC4F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56F8EC4A238132D3004AC4F8 /* Build configuration list for PBXNativeTarget "FBWhatEatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F8EC48238132D3004AC4F8 /* Debug */,
+				56F8EC49238132D3004AC4F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56F8EC212381321D004AC4F8 /* Project object */;
+}

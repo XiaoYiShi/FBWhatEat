@@ -1,0 +1,16 @@
+PODS:
+  - CCBaseKit (0.0.2)
+
+DEPENDENCIES:
+  - CCBaseKit
+
+SPEC REPOS:
+  https://github.com/XiaoYiShi/CCPodSpecs.git:
+    - CCBaseKit
+
+SPEC CHECKSUMS:
+  CCBaseKit: 20b21914195206267710d5863c1eeb91f4e58263
+
+PODFILE CHECKSUM: 9c5277aa7a8ef72f4f1d1c749811cdeb790b510a
+
+COCOAPODS: 1.8.4
