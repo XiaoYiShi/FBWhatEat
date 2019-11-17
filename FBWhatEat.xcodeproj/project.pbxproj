@@ -3,12 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2458721D79908D9BA6B2AA64 /* Pods_FBWhatEat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C266169DCE4764CD18E5E194 /* Pods_FBWhatEat.framework */; };
 		406A30CBDDCD97FBFFD90497 /* Pods_FBWhatEatDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A8D40CD26194374D43902A /* Pods_FBWhatEatDemo.framework */; };
+		568B8AEB23819D2C00DE05AE /* FBWhatEat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F8EC2A2381321D004AC4F8 /* FBWhatEat.framework */; };
+		568B8AEC23819D2C00DE05AE /* FBWhatEat.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 56F8EC2A2381321D004AC4F8 /* FBWhatEat.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		56F8EC2F2381321D004AC4F8 /* FBWhatEat.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F8EC2D2381321D004AC4F8 /* FBWhatEat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56F8EC3C238132D2004AC4F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F8EC3B238132D2004AC4F8 /* AppDelegate.swift */; };
 		56F8EC3E238132D2004AC4F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F8EC3D238132D2004AC4F8 /* ViewController.swift */; };
@@ -17,6 +19,30 @@
 		56F8EC46238132D3004AC4F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56F8EC44238132D3004AC4F8 /* LaunchScreen.storyboard */; };
 		56F8EC4C23814413004AC4F8 /* VC_SmallTool_foot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F8EC4B23814413004AC4F8 /* VC_SmallTool_foot.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		568B8AED23819D2C00DE05AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56F8EC212381321D004AC4F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56F8EC292381321D004AC4F8;
+			remoteInfo = FBWhatEat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		568B8AEF23819D2C00DE05AE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				568B8AEC23819D2C00DE05AE /* FBWhatEat.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0C096CFD3032FE7038ED900F /* Pods-FBWhatEatDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBWhatEatDemo.release.xcconfig"; path = "Target Support Files/Pods-FBWhatEatDemo/Pods-FBWhatEatDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -52,6 +78,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				406A30CBDDCD97FBFFD90497 /* Pods_FBWhatEatDemo.framework in Frameworks */,
+				568B8AEB23819D2C00DE05AE /* FBWhatEat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +93,6 @@
 				11E6B3ACA8E3F0CAF1265406 /* Pods-FBWhatEatDemo.debug.xcconfig */,
 				0C096CFD3032FE7038ED900F /* Pods-FBWhatEatDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -163,10 +189,13 @@
 				56F8EC35238132D2004AC4F8 /* Sources */,
 				56F8EC36238132D2004AC4F8 /* Frameworks */,
 				56F8EC37238132D2004AC4F8 /* Resources */,
+				080FE4D5D9E3ED2E19976B74 /* [CP] Embed Pods Frameworks */,
+				568B8AEF23819D2C00DE05AE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				568B8AEE23819D2C00DE05AE /* PBXTargetDependency */,
 			);
 			name = FBWhatEatDemo;
 			productName = FBWhatEatDemo;
@@ -205,8 +234,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				56F8EC292381321D004AC4F8 /* FBWhatEat */,
 				56F8EC38238132D2004AC4F8 /* FBWhatEatDemo */,
+				56F8EC292381321D004AC4F8 /* FBWhatEat */,
 			);
 		};
 /* End PBXProject section */
@@ -232,6 +261,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		080FE4D5D9E3ED2E19976B74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FBWhatEatDemo/Pods-FBWhatEatDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FBWhatEatDemo/Pods-FBWhatEatDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FBWhatEatDemo/Pods-FBWhatEatDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4A252AAB8AF7159B14BE60CB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -297,6 +343,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		568B8AEE23819D2C00DE05AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56F8EC292381321D004AC4F8 /* FBWhatEat */;
+			targetProxy = 568B8AED23819D2C00DE05AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		56F8EC3F238132D2004AC4F8 /* Main.storyboard */ = {
