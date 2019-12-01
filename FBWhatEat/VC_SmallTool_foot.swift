@@ -21,7 +21,8 @@ public class VC_SmallTool_foot: UIViewController
         super.viewDidLoad()
         self.view.backgroundColor = .white
         self.title = "今天吃什么"
-//        ex_addBackBarButton()
+        
+        cc_addBackBarButton()
         
         foodArr = foodStr.components(separatedBy: " ")
         
@@ -110,28 +111,3 @@ public class VC_SmallTool_foot: UIViewController
 
 
 
-
-
-extension CALayer {
-    func corner(_ radius:CGFloat) -> Void {
-        self.masksToBounds    = true
-        self.cornerRadius     = radius
-    }
-    func border(_ wdith:CGFloat ,_ color:UIColor? ) -> Void {
-        self.masksToBounds    = true
-        self.borderWidth      = wdith
-        self.borderColor      = color?.cgColor
-    }
-    func shadow(
-        _ Opacity:Float,
-        _ rgbColor:Int,
-        _ Radius:CGFloat,
-        _ Offset:CGSize
-        ) -> Void
-    {
-        shadowOpacity = Opacity// 阴影透明度
-        shadowColor = UIColor.init(rgb: rgbColor).cgColor // 阴影的颜色
-        shadowRadius = Radius// 阴影扩散的范围控制
-        shadowOffset = Offset// 阴影的范围
-    }
-}
