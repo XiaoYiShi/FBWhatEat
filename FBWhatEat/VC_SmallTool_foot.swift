@@ -36,11 +36,11 @@ public class VC_SmallTool_foot: UIViewController
             y: self.view.cc_h-150,
             width: 120,
             height: 50)
-        startButton.layer.border(0.5, UIColor.cc_init(rgb: 0x999999))
+        startButton.layer.border(0.5, UIColor.init(rgb: 0x999999))
         startButton.setTitle("开始", for: .normal)
         startButton.setTitle("停止", for: .selected)
-        startButton.setTitleColor(UIColor.cc_init(rgb: 0x333333), for: .normal)
-        startButton.setTitleColor(UIColor.cc_init(rgb: 0x333333), for: .selected)
+        startButton.setTitleColor(UIColor.init(rgb: 0x333333), for: .normal)
+        startButton.setTitleColor(UIColor.init(rgb: 0x333333), for: .selected)
         startButton.titleLabel?.font = UIFont.systemFont(ofSize: 20)
         startButton.layer.corner(6)
         startButton.addTarget(self, action: #selector(startButtonClick), for: .touchUpInside)
@@ -130,7 +130,7 @@ extension CALayer {
         ) -> Void
     {
         shadowOpacity = Opacity// 阴影透明度
-        shadowColor = UIColor.cc_init(rgb: rgbColor).cgColor // 阴影的颜色
+        shadowColor = UIColor.init(rgb: rgbColor).cgColor // 阴影的颜色
         shadowRadius = Radius// 阴影扩散的范围控制
         shadowOffset = Offset// 阴影的范围
     }

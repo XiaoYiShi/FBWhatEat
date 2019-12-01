@@ -93,7 +93,8 @@ Pod::Spec.new do |spec|
   
     spec.subspec "FBWhatEat" do |ss|
     ss.source_files  = "FBWhatEat/**/*.{swift,h,m}"
-    ss.dependency "CCBaseKit", "~> 0.0.3"
+    ss.dependency "CCBaseKit"
+    ss.dependency "SnapKit"
     ss.framework  = "UIKit"
   end
 
