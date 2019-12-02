@@ -7,10 +7,8 @@ target 'FBWhatEatDemo' do
 end
 
 target 'FBWhatEat' do
-      pod 'CCBaseKit'
-      pod 'Moya'
+      pod 'CCBaseKit', :path => '../CCBaseKit'
       pod 'SnapKit'
-	pod 'WCDB.swift'
 end
 
 
